@@ -1,12 +1,12 @@
 bindAddr = "0.0.0.0"
-bindPort = 7000
+bindPort = 7070
 #kcpBindPort = 7000
-quicBindPort = 7000
+quicBindPort = 7070
 
 vhostHTTPPort = 80
 vhostHTTPSPort = 443
 
-transport.maxPoolCount = 2000
+transport.maxPoolCount = 20
 transport.tcpMux = true
 transport.tcpMuxKeepaliveInterval = 60
 transport.tcpKeepalive = 7200
@@ -14,8 +14,8 @@ transport.tls.force = false
 
 webServer.addr = "0.0.0.0"
 webServer.port = 7500
-webServer.user = "admin"
-webServer.password = "admin"
+webServer.user = "wanchao"
+webServer.password = "wanchao"
 webServer.pprofEnable = false
 
 log.to = "./frps.log"
@@ -23,8 +23,8 @@ log.level = "info"
 log.maxDays = 3
 log.disablePrintColor = false
 
-auth.method = "token"
-auth.token = "12345678"
+auth.method = "wanchao"
+auth.token = "wanchao11223344"
 
 allowPorts = [
   { start = 10001, end = 50000 }
